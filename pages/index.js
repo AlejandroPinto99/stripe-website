@@ -5,6 +5,8 @@ import Header from '../components/Header/Header'
 import Internet_Business from '../components/Internet_Business/Internet_Business'
 import DevelopersFirst from '../components/Developers_First/DevelopersFirst'
 import AboutUs from '../components/AboutUs/AboutUs'
+import OurTools from '../components/OurTools/OurTools'
+import GetStarted from '../components/GetStarted/GetStarted'
 
 //Image
 
@@ -43,11 +45,15 @@ const Home = () => {
             <Internet_Business />
         </div>
         <div className=" pb-12 bg-gray-100 pt-36 dev-content ">
-            <DevelopersFirst />
+          <DevelopersFirst />
         </div>
+
+        <AboutUs />
+        <OurTools />
         <div>
-            <AboutUs />
+          <GetStarted />
         </div>
+        
 
       <div className="absolute top-0 right-0">
         <DigitalOcean />

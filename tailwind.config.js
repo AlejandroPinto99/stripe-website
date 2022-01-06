@@ -11,6 +11,7 @@ module.exports = {
         'stripe-mid-blue':'#05D5FF',
         'stripe-end-blue' : '#5533FF',
         'stripe-purple': '#6772E5',
+        'stripe-dark-pruple' : '#32325D',
         'stripe-green': '#24B47E',
         'text-gray': '#6B7C93'
       },
