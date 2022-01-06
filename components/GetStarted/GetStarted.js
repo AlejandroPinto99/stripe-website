@@ -1,7 +1,7 @@
 import React from 'react'
 
 const GetStarted = () => (
-    <div className="flex py-12">
+    <div className="flex pt-48 pb-24 border-b">
         <div className="flex flex-col w-1/2 source-sans-pro-400 text-xl px-20 ">
             <h3 className="text-stripe-purple">Ready to get started ?</h3>
             <p className="text-stripe-dark-pruple">Get in touch, or create an account.</p>

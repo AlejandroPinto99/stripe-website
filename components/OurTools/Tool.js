@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Tool = ({title, icon, content}) => (
-    <div className="flex w-1/2 shadow-md py-4 ">
+    <div className="flex w-1/2 shadow-md py-4 bg-white">
         <div >
             {icon}
         </div>

@@ -7,6 +7,7 @@ import DevelopersFirst from '../components/Developers_First/DevelopersFirst'
 import AboutUs from '../components/AboutUs/AboutUs'
 import OurTools from '../components/OurTools/OurTools'
 import GetStarted from '../components/GetStarted/GetStarted'
+import Footer from '../components/Footer/Footer'
 
 //Image
 
@@ -14,13 +15,14 @@ import DigitalOcean from '../images/SvgComponents/digital_ocean'
 import Rectangle2 from '../images/SvgComponents/Rectangle2'
 import Rectagle from '../images/SvgComponents/Rectangle'
 import Ipad from '../images/SvgComponents/Salesforce_Ipad'
+import Asana from '../images/SvgComponents/Asana'
+import PostMates from '../images/SvgComponents/PostMates'
 
 
 
 const Home = () => {
   return (
     <div className="relative">
-
       <div className="h-full pb-24 bg-gradient-to-b from-stripe-end-blue to-stripe-mid-blue
         origin-top-left relative header-content">
           <div className="relative z-10 ">
@@ -33,28 +35,47 @@ const Home = () => {
           <div className="right-1/2 absolute -top-32 z-0">
             <Rectagle fill="#4553FF" height={280} width={350}/>
           </div>
-          <div className="absolute top-10 -right-10">
+          <div className="absolute top-10 right-0">
             <Rectangle2 fillColor="#25DDF5" />
           </div>
-          <div className="absolute top-48 -right-10">
+          <div className="absolute top-48 right-0">
             <Rectangle2 fillColor="#73EED6" />
           </div>
         </div>
 
-        <div>
+        <div className="relative">
             <Internet_Business />
+            <div className="absolute -top-24 right-0 z-10">
+              <Asana />
+            </div>
+
+            <div className="absolute -top-16 right-36 z-10">
+              <PostMates />
+            </div>
+
         </div>
-        <div className=" pb-12 bg-gray-100 pt-36 dev-content ">
+
+        <div className="pb-12 bg-gray-100 pt-36 dev-content ">
           <DevelopersFirst />
         </div>
 
-        <AboutUs />
-        <OurTools />
-        <div>
+        <div className="relative">
+          <AboutUs />
+          <div className="absolute z-10">
+            <OurTools />
+          </div> 
+        </div>
+      
+
+        <div className="dev-get-started" style={{backgroundColor: '#F6F9FC'}}>
           <GetStarted />
         </div>
-        
 
+        
+        <div className="px-16 py-20" style={{backgroundColor: '#F6F9FC'}}>
+          <Footer />
+        </div>
+      
       <div className="absolute top-0 right-0">
         <DigitalOcean />
       </div>
@@ -62,7 +83,6 @@ const Home = () => {
       <div className="absolute top-60 right-20" >
         <Ipad />
       </div>
- 
 
     </div>
     
