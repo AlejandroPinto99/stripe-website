@@ -20,9 +20,9 @@ const Header = () => {
                 flex items-center space-x-2">
                     <div>
                         <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6 11H13V13H6V11Z" fill="#0A7261"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.51672 0.685913L6.79969 5.27833L5.48757 6.78775L0.204606 2.19533L1.51672 0.685913Z" fill="#0A7261"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.595581 9.33118L5.18799 4.04821L6.69741 5.36033L2.105 10.6433L0.595581 9.33118Z" fill="#0A7261"/>
+                            <path fillRule="evenodd" clipRule="evenodd" d="M6 11H13V13H6V11Z" fill="#0A7261"/>
+                            <path fillRule="evenodd" clipRule="evenodd" d="M1.51672 0.685913L6.79969 5.27833L5.48757 6.78775L0.204606 2.19533L1.51672 0.685913Z" fill="#0A7261"/>
+                            <path fillRule="evenodd" clipRule="evenodd" d="M0.595581 9.33118L5.18799 4.04821L6.69741 5.36033L2.105 10.6433L0.595581 9.33118Z" fill="#0A7261"/>
                         </svg>
                     </div>
                     <p>EXPLORE THE STACK</p>

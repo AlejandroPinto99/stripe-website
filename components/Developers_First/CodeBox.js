@@ -11,8 +11,8 @@ const CodeBox = () => {
         <div className="bg-white flex">
         <div className="w-1/12 flex flex-col text-xs items-center py-1 text-stripe-green" style={{background: '#F2FEEF'}}>
             {
-                lines.map(item => (
-                    <span>{item}</span>
+                lines.map((item, index) => (
+                    <span key={index}>{item}</span>
                 ))
             }
         </div>
