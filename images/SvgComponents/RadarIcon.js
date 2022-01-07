@@ -1,7 +1,7 @@
 import React from 'react'
 
 const RadarIcon = () => (
-    <svg width="61" height="79" viewBox="0 0 91 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="86" height="94" viewBox="0 0 91 109" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fillRule="evenodd" clipRule="evenodd" d="M36.5 109C66.5995 109 91 84.5995 91 54.5C91 24.4005 66.5995 0 36.5 0C6.40048 0 -18 24.4005 -18 54.5C-18 84.5995 6.40048 109 36.5 109Z" fill="#F6A4EB"/>
         <mask id="mask0_0_28" style={{'mask-type': "alpha"}} maskUnits="userSpaceOnUse" x="-18" y="0" width="109" height="109">
         <path fillRule="evenodd" clipRule="evenodd" d="M36.5 109C66.5995 109 91 84.5995 91 54.5C91 24.4005 66.5995 0 36.5 0C6.40048 0 -18 24.4005 -18 54.5C-18 84.5995 6.40048 109 36.5 109Z" fill="white"/>

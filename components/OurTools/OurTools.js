@@ -10,7 +10,7 @@ const content2 = "Start building your integration and accept your first payment 
 
 const OurTools = () => (
     <div>
-        <div className="flex space-x-8 mx-10">
+        <div className="flex justify-center space-x-8 mx-10">
             <Tool title="INTRODUCING RADAR" content={content1} icon={<RadarIcon />}/>
             <Tool title="EXPLORE THE DOCS" content={content2} icon={<ExploreDocs />}/>
         </div>

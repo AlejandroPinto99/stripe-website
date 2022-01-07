@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ExploreDocs = () => (
-    <svg width="57" height="67" viewBox="0 0 87 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="77" height="97" viewBox="0 0 87 97" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fillRule="evenodd" clipRule="evenodd" d="M0 4C12.7916 4 23.2451 14.1911 23.5011 26.9802C24.0664 55.2168 24.7545 99.009 23.5 95.5C23.468 95.4105 23.0342 96.1453 23 96C21 87.5 0.5 86 0.5 86L0 4Z" fill="#9251AC"/>
         <path fillRule="evenodd" clipRule="evenodd" d="M23 12H83V92C83 94.2091 81.2091 96 79 96H23V12Z" fill="#9251AC"/>
         <path fillRule="evenodd" clipRule="evenodd" d="M23 18.055C23 10.792 28.9463 4.93632 36.2089 5.01387C48.484 5.14494 65.6203 5.24137 70.7529 4.84038C74.9341 4.51373 79.0379 2.98536 82.0751 1.55306C84.2464 0.529083 87 2.06803 87 4.46869V68.6587C87 79.2228 78.3835 87.7583 67.8196 87.6937C52.376 87.5993 32.8581 87.5432 30.4878 87.8404C29.3733 87.9801 28.2968 88.198 27.3243 88.4394C25.2339 88.9582 23 87.4445 23 85.2908V18.055Z" fill="#F6A4EB"/>
