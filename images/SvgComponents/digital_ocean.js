@@ -1,7 +1,7 @@
 import React from 'react'
 
 const DigitalOcean = () => (
-    <svg width="166" height="500" viewBox="0 0 166 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+    <svg width="166" height="700" viewBox="0 0 166 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <g filter="url(#filter0_di_0_436)">
         <path fillRule="evenodd" clipRule="evenodd" d="M380.151 497.856C385.299 522.071 369.841 545.874 345.625 551.022L159.436 590.597C135.22 595.744 111.417 580.287 106.27 556.071L9.93446 102.847C4.78729 78.632 20.2452 54.8288 44.4607 49.6817L230.65 10.1059C254.865 4.95874 278.669 20.4167 283.816 44.6322L380.151 497.856Z" fill="white"/>
         </g>

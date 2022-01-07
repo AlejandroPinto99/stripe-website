@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Asana = () => (
-    <svg width="318" height="547" viewBox="0 0 168 757" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="548" height="657" viewBox="0 0 245 757" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_di_0_610)">
         <path fillRule="evenodd" clipRule="evenodd" d="M579.978 624.746C584.26 644.894 571.399 664.698 551.252 668.98L177.198 748.488C157.051 752.77 137.247 739.909 132.964 719.762L8.13187 132.472C3.84943 112.325 16.7104 92.5207 36.8577 88.2383L410.911 8.73071C431.059 4.44827 450.863 17.3093 455.145 37.4566L579.978 624.746Z" fill="white"/>
         </g>

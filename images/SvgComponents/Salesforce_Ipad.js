@@ -3,7 +3,7 @@ import React from 'react'
 
 const Salesforce_Ipad = () => (
 
-    <svg width="427" height="320" viewBox="0 0 577 450" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+    <svg width="627" height="450" viewBox="0 0 577 450" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <g filter="url(#filter0_di_0_226)">
         <path fillRule="evenodd" clipRule="evenodd" d="M117.213 439.684C92.9978 444.831 69.1947 429.373 64.0475 405.157L10.0461 151.1C4.89895 126.885 20.3569 103.082 44.5724 97.9347L459.685 9.69976C483.901 4.55259 507.704 20.0105 512.851 44.226L566.852 298.283C571.999 322.498 556.541 346.301 532.326 351.449L117.213 439.684Z" fill="white"/>
         <path d="M117.074 439.026C93.2213 444.096 69.7752 428.87 64.7052 405.017L10.7038 150.961C5.63384 127.108 20.8599 103.662 44.7122 98.5924L459.825 10.3575C483.677 5.2875 507.123 20.5135 512.193 44.3658L566.195 298.423C571.265 322.275 556.038 345.721 532.186 350.791L117.074 439.026Z" stroke="#F0F0F0" strokeWidth="1.34477" strokeLinecap="square"/>

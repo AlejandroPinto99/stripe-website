@@ -25,15 +25,15 @@ const Home = () => {
     <div className="relative">
       <div className="h-full pb-24 bg-gradient-to-b from-stripe-end-blue to-stripe-mid-blue
         origin-top-left relative header-content">
-          <div className="relative z-10 ">
+          <div className="relative z-10 ml-12">
             <NavBar />
             <Header />
           </div>
           <div className=" absolute -bottom-32 -left-14 z-0">
             <Rectagle fill="#1FA2FF" height={390} width={450}/>
           </div>
-          <div className="right-1/2 absolute -top-32 z-0">
-            <Rectagle fill="#4553FF" height={280} width={350}/>
+          <div className="right-1/2 absolute -top-32 left-52 z-0">
+            <Rectagle fill="#4553FF" height={300} width={530}/>
           </div>
           <div className="absolute top-10 right-0">
             <Rectangle2 fillColor="#25DDF5" />
@@ -45,11 +45,11 @@ const Home = () => {
 
         <div className="relative">
             <Internet_Business />
-            <div className="absolute -top-24 right-0 z-10">
+            <div className="absolute -top-20 right-0 z-10">
               <Asana />
             </div>
 
-            <div className="absolute -top-16 right-36 z-10">
+            <div className="absolute top-4 right-72 z-10">
               <PostMates />
             </div>
 
@@ -76,11 +76,11 @@ const Home = () => {
           <Footer />
         </div>
       
-      <div className="absolute top-0 right-0">
+      <div className="absolute -top-12 right-0">
         <DigitalOcean />
       </div>
   
-      <div className="absolute top-60 right-20" >
+      <div className="absolute top-64 right-24" >
         <Ipad />
       </div>
 

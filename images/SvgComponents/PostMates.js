@@ -1,7 +1,7 @@
 import React from 'react'
 
 const PostMates = () =>(
-    <svg width="325" height="409" viewBox="0 0 325 499" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="395" height="419" viewBox="0 0 325 499" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_di_0_483)">
         <path fillRule="evenodd" clipRule="evenodd" d="M316.638 413.684C320.921 433.831 308.06 453.635 287.912 457.918L132.964 490.853C112.817 495.136 93.0123 482.275 88.7299 462.127L8.59861 85.1392C4.31617 64.992 17.1772 45.1877 37.3245 40.9053L192.273 7.96995C212.42 3.68752 232.225 16.5485 236.507 36.6958L316.638 413.684Z" fill="white"/>
         </g>
