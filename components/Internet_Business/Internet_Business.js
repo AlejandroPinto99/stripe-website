@@ -3,14 +3,14 @@ import Toggle_Button from '../../images/SvgComponents/Toggle_Button';
 
 const Internet_Business = () => (
     <div className="grid grid-cols-2">
-        <div>
-            <div className="flex items-center justify-end space-x-4 pt-12">
+        <div className="pr-12">
+            <div className="flex items-center justify-end space-x-4 pt-8 -mr-8">
                 <h3 className="text-right pl-12 source-sans-pro-900  w-1/2 tracking-wider text-lg" style={{color: '#24B47E'}}>THE COMPLETE TOOLKIT FOR INTERNET BUSINESS</h3>
                 <Toggle_Button />
             </div>
 
             <div className="flex justify-end">
-                <p className="text-right pr-12 source-sans-pro-400 text-sm w-2/3 pt-6 text-text-gray">
+                <p className="text-right pl-20 source-sans-pro-400 text-sm w-2/3 pt-6 pb-6 text-text-gray">
                     Stripe builds the most powerful and flexible tools for internet commerce. Whether you’re creating a subscription service, 
                     an on-demand marketplace, an e-commerce store, or a crowdfunding platform, Stripe’s meticulously-designed APIs and unmatched 
                     functionality help you create the best possible product for your users. Hundreds of thousands of the world’s 
@@ -19,7 +19,7 @@ const Internet_Business = () => (
             </div>
             
 
-            <div className="flex mt-8 ml-4 justify-end px-16 items-center">
+            <div className="flex mt-8 ml-4 justify-end  items-center">
                 <p className="source-sans-pro-400 text-sm" style={{color: '#6772E5'}}>Discover how businesses use Stripe</p>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="#6772E5">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />

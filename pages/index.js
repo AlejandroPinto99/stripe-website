@@ -35,10 +35,10 @@ const Home = () => {
           <div className="right-1/2 absolute -top-32 left-52 z-0">
             <Rectagle fill="#4553FF" height={300} width={530}/>
           </div>
-          <div className="absolute top-10 right-0">
+          <div className="absolute top-4 right-0">
             <Rectangle2 fillColor="#25DDF5" />
           </div>
-          <div className="absolute top-48 right-0">
+          <div className="absolute top-52 right-0">
             <Rectangle2 fillColor="#73EED6" />
           </div>
         </div>

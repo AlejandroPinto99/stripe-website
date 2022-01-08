@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return(
-        <div className="pr-8  pl-32 pt-12 pb-20 mt-20  w-2/3 ">
+        <div className="pr-8  pl-32 pt-12 pb-32 mt-20  w-2/3 ">
 
             <div className="flex space-x-2 pb-10 pl-2">
                 <span className="bg-green-500 rounded-lg px-2 text-white text-xs source-sans-pro-900 flex items-center">NEW</span>
