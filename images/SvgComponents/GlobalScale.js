@@ -1,7 +1,7 @@
 import React from 'react'
 
 const GlobalScale = () => (
-    <svg width="45" height="45" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fillRule="evenodd" clipRule="evenodd" d="M32.5 65C50.4493 65 65 50.4493 65 32.5C65 14.5507 50.4493 0 32.5 0C14.5507 0 0 14.5507 0 32.5C0 50.4493 14.5507 65 32.5 65Z" fill="#B9F4BC"/>
         <path fillRule="evenodd" clipRule="evenodd" d="M43.8987 21.065C44.4797 21.0434 44.9566 21.5203 44.935 22.1013L44.7062 28.2794C44.6739 29.152 43.6172 29.5669 42.9998 28.9495L37.0505 23.0002C36.4331 22.3828 36.848 21.3261 37.7206 21.2938L43.8987 21.065Z" fill="#1BB978"/>
         <path fillRule="evenodd" clipRule="evenodd" d="M24.318 38.6819L39 23.9999L41.9534 26.9533L27.2714 41.6353L24.318 38.6819Z" fill="#1BB978"/>

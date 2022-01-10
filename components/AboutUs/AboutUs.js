@@ -22,7 +22,7 @@ const content2="We help power 100,000+ businesses in 100+ countries and across n
 
 const OurServices = () => (
     <div>
-        <div className="flex justify-center space-x-20 shadow-sm py-20">
+        <div className="flex justify-center space-x-20 shadow-sm py-20 px-10">
             <Feature title="ALWAYS IMPROVING" content={content1} icon={<AlwaysImproving />} link="Learn about Strip's products"/>
             <Feature title="GLOBAL SCALE" content={content2} icon={<GlobalScale />} link="More About us" />
         </div>
