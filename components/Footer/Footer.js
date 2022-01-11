@@ -13,15 +13,15 @@ const Footer = () => {
     return(
         <div className="flex justify-between px-40">
             <div className="flex flex-col space-y-4 w-1/3">
-                <div className="flex items-center space-x-2 text-lg source-sans-pro-700 text-stripe-purple cursor-pointer">
-                    <svg width="15" height="15" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div className="flex items-center space-x-2 text-md source-sans-pro-700 text-stripe-purple cursor-pointer">
+                    <svg width="10" height="10" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd" clipRule="evenodd" d="M6 11L11 0L0 5.5L5 6L6 11Z" fill="#6772E5"/>
                     </svg>
                     <p>United States</p>
                 </div>
 
-                <div className="flex items-center space-x-2 text-lg source-sans-pro-700 text-stripe-purple cursor-pointer">
-                    <svg width="15" height="15" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div className="flex items-center space-x-2 text-md source-sans-pro-700 text-stripe-purple cursor-pointer">
+                    <svg width="10" height="10" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd" clipRule="evenodd" d="M7.40845 8.72168C9.50537 8.08691 11 6.43628 11 4.5C11 2.01465 8.5376 0 5.5 0C2.4624 0 0 2.01465 0 4.5C0 6.55981 1.69153 8.29639 4 8.83057V9V11.5C4 11.5 6.71143 10.1443 7.40845 8.72168Z" fill="#6772E5"/>
                     </svg>
                     <p>English</p>

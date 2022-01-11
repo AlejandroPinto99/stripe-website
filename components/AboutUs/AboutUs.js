@@ -26,9 +26,9 @@ const OurServices = () => (
             <Feature title="ALWAYS IMPROVING" content={content1} icon={<AlwaysImproving />} link="Learn about Strip's products"/>
             <Feature title="GLOBAL SCALE" content={content2} icon={<GlobalScale />} link="More About us" />
         </div>
-        <div className="flex justify-center py-20 px-14  cursor-pointer 
+        <div className="flex justify-center py-20 cursor-pointer 
         relative group">
-            <div className="flex justify-center space-x-10 transition duration-300 ease-in-out blur-0
+            <div className="flex justify-around space-x-12 transition duration-300 ease-in-out blur-0
             group-hover:blur-sm group-hover:space-x-8">
                 <Kickstarter />
                 <Twitter />

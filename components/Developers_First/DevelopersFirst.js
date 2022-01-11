@@ -6,9 +6,9 @@ import Menu from './Menu'
 
 const DevelopersFirst = () => (
     <div >
-        <div className="flex flex-col items-center px-48 pt-32">
+        <div className="flex flex-col items-center px-48 pt-44">
             <Gears />
-            <div className="text-center space-y-8">
+            <div className="text-center space-y-8 -mt-4">
             <h3 className="source-sans-pro-900 text-2xl tracking-wider" style={{color: '#24B47E'}}>DEVELOPERS FIRST</h3>
                 <p className="text-lg text-text-gray px-44">
                     We believe that payments is a problem rooted in code, not finance. We obsessively seek out elegant, composable abstractions 
@@ -18,8 +18,8 @@ const DevelopersFirst = () => (
             </div>
         </div>
 
-        <div className="pt-12 flex justify-start space-x-4 ">
-            <div className="w-10/12 ">
+        <div className="pt-12 flex justify-center space-x-4">
+            <div className="w-8/12 ">
                 <CodeBox />
             </div>
             <div>

@@ -13,6 +13,7 @@ module.exports = {
         'stripe-purple': '#6772E5',
         'stripe-dark-pruple' : '#32325D',
         'stripe-green': '#24B47E',
+        'stripe-dark-green': '#3ECF8E',
         'text-gray': '#6B7C93'
       },
     },

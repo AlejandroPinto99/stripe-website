@@ -4,8 +4,8 @@ const Header = () => {
     return(
         <div className="pr-8  pl-48 pt-12 pb-36 mt-20 w-2/3 ">
 
-            <div className="flex space-x-2 pb-10 pl-2">
-                <span className="bg-green-500 rounded-lg px-2 text-white text-xs source-sans-pro-900 flex items-center">NEW</span>
+            <div className="flex items-center space-x-2 pb-10 pl-2">
+                <span className="bg-green-500 rounded-lg px-2 text-white text-xs source-sans-pro-900 h-fit">NEW</span>
                 <p className="text-base text-white source-sans-pro-300 ">Introducing Radar: Modern tools to help you beat fraud, fully integrated with your payments.</p>
             </div>
 
@@ -16,7 +16,7 @@ const Header = () => {
             </p>
 
             <div className="flex space-x-6 pt-14">
-                <button className="bg-green-400 hover:bg-green-500 text-white hover:text-gray-200 px-4 py-2 shadow-md rounded-md source-sans-pro-700 
+                <button className="bg-stripe-dark-green hover:bg-green-500 text-white hover:text-gray-200 px-4 py-2 shadow-md rounded-md source-sans-pro-700 
                 flex items-center space-x-2">
                     <div>
                         <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">

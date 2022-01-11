@@ -2,7 +2,7 @@ import React from 'react'
 import Toggle_Button from '../../images/SvgComponents/Toggle_Button';
 
 const Internet_Business = () => (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-2 pl-20">
         <div className="pr-12">
             <div className="flex items-center justify-end space-x-4 pt-8 -mr-12">
                 <h3 className="text-right pl-10 pr-2 source-sans-pro-900 w-2/3 tracking-wider text-2xl" style={{color: '#24B47E'}}>THE COMPLETE TOOLKIT FOR INTERNET BUSINESS</h3>
