@@ -26,15 +26,22 @@ const OurServices = () => (
             <Feature title="ALWAYS IMPROVING" content={content1} icon={<AlwaysImproving />} link="Learn about Strip's products"/>
             <Feature title="GLOBAL SCALE" content={content2} icon={<GlobalScale />} link="More About us" />
         </div>
-        <div className="flex justify-center py-12 px-14 space-x-16">
-            <Kickstarter />
-            <Twitter />
-            <Instacart />
-            <Pinterest />
-            <Lyft />
-            <Shopify />
-            <Opentable />
-            <Slack />
+        <div className="flex justify-center py-20 px-14  cursor-pointer 
+        relative group">
+            <div className="flex justify-center space-x-10 transition duration-300 ease-in-out blur-0
+            group-hover:blur-sm group-hover:space-x-8">
+                <Kickstarter />
+                <Twitter />
+                <Instacart />
+                <Pinterest />
+                <Lyft />
+                <Shopify />
+                <Opentable />
+                <Slack />
+            </div>
+          
+            <button className="text-white source-sans-pro-600 bg-stripe-purple py-2 px-4 rounded-md
+            absolute opacity-0 group-hover:opacity-100 transition duration-300 delay-200 z-10"> SEE OUR CUSTOMERS </button>
         </div>
     </div>
 

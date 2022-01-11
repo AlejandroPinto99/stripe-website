@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Tool = ({title, icon, content}) => (
-    <div className="flex w-5/12 shadow-md py-8 bg-white ">
+    <div className="flex w-5/12 shadow-md py-8 bg-white cursor-pointer hover:shadow-xl hover:-translate-y-1
+    transition duration-200 ease-in-out">
         <div >
             {icon}
         </div>

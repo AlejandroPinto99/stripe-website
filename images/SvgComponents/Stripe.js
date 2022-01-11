@@ -1,7 +1,7 @@
 import React from 'react'
 
 const StripeLogo = () => (
-    <svg width="83" height="40" viewBox="0 0 63 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+    <svg width="90" height="25" viewBox="0 0 63 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <rect width="63" height="25" fill="url(#pattern0)"/>
         <defs>
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">

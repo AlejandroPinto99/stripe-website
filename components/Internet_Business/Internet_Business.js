@@ -5,7 +5,7 @@ const Internet_Business = () => (
     <div className="grid grid-cols-2">
         <div className="pr-12">
             <div className="flex items-center justify-end space-x-4 pt-8 -mr-12">
-                <h3 className="text-right pl-10  pr-2 source-sans-pro-900 w-2/3 tracking-wider text-2xl" style={{color: '#24B47E'}}>THE COMPLETE TOOLKIT FOR INTERNET BUSINESS</h3>
+                <h3 className="text-right pl-10 pr-2 source-sans-pro-900 w-2/3 tracking-wider text-2xl" style={{color: '#24B47E'}}>THE COMPLETE TOOLKIT FOR INTERNET BUSINESS</h3>
                 <Toggle_Button />
             </div>
 
@@ -19,9 +19,10 @@ const Internet_Business = () => (
             </div>
             
 
-            <div className="flex mt-8 ml-4 justify-end  items-center">
-                <p className="source-sans-pro-400 text-lg" style={{color: '#6772E5'}}>Discover how businesses use Stripe</p>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="#6772E5">
+            <div className="flex mt-8 ml-4 justify-end items-center cursor-pointer group">
+                <p className="source-sans-pro-400 text-lg pr-2 transition duration-100 ease-in-out hover:-translate-y-1" style={{color: '#6772E5'}}>Discover how businesses use Stripe</p>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-6 group-hover:translate-x-10 transition duration-100 ease-in-out"
+                 fill="none" viewBox="0 0 24 24" stroke="#6772E5">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
             </div>

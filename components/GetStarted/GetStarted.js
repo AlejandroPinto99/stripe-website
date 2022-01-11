@@ -8,11 +8,11 @@ const GetStarted = () => (
         </div>
 
         <div className="flex space-x-4 w-1/2 items-center justify-center">
-            <button className="text-white bg-stripe-purple text-lg h-12
+            <button className="text-white bg-stripe-purple hover:text-gray-100 hover:bg-stripe-dark-pruple text-lg h-12
             source-sans-pro-700 px-4 shadow-md border rounded-md">
                 CREATE STRIPE ACCOUNT
             </button>
-            <button className="text-stripe-purple bg-white text-lg h-12
+            <button className="text-stripe-purple bg-white text-lg hover:text-stripe-dark-pruple hover:bg-gray-100 h-12
             source-sans-pro-700 px-4 shadow-md border rounded-md">
                  CONTACT SALES
             </button>

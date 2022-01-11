@@ -2,21 +2,21 @@ import React from 'react'
 
 const Header = () => {
     return(
-        <div className="pr-8  pl-32 pt-12 pb-32 mt-20  w-2/3 ">
+        <div className="pr-8  pl-48 pt-12 pb-36 mt-20 w-2/3 ">
 
             <div className="flex space-x-2 pb-10 pl-2">
                 <span className="bg-green-500 rounded-lg px-2 text-white text-xs source-sans-pro-900 flex items-center">NEW</span>
                 <p className="text-base text-white source-sans-pro-300 ">Introducing Radar: Modern tools to help you beat fraud, fully integrated with your payments.</p>
             </div>
 
-            <h3 className="source-sans-pro-400 text-white text-5xl">The new standard in online payments</h3>
+            <h3 className="source-sans-pro-400 text-white text-5.5xl">The new standard in online payments</h3>
             <p className="text-base pt-4 text-white w-7/12 leading-7">Stripe is the best software platform for running an internet
                 business. We handle billions of dollars every year for forward-
                 thinking businesses around the world.
             </p>
 
             <div className="flex space-x-6 pt-14">
-                <button className="bg-green-400 text-white px-4 py-2 shadow-md rounded-md source-sans-pro-700 
+                <button className="bg-green-400 hover:bg-green-500 text-white hover:text-gray-200 px-4 py-2 shadow-md rounded-md source-sans-pro-700 
                 flex items-center space-x-2">
                     <div>
                         <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +27,7 @@ const Header = () => {
                     </div>
                     <p>EXPLORE THE STACK</p>
                 </button>
-                <button className="bg-white text-blue-400 px-4 py-2 shadow-md rounded-md source-sans-pro-600">
+                <button className="bg-white hover:bg-gray-200 text-blue-400 hover:text-blue-500 px-4 py-2 shadow-md rounded-md source-sans-pro-600">
                     <p>CREATE ACCOUNT</p>
                 </button>
             </div>

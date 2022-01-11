@@ -30,22 +30,22 @@ const Home = () => {
             <Header />
           </div>
           <div className=" absolute -bottom-32 -left-14 z-0">
-            <Rectagle fill="#1FA2FF" height={390} width={450}/>
+            <Rectagle fill="#1FA2FF" height={440} width={550}/>
           </div>
           <div className="right-1/2 absolute -top-32 left-52 z-0">
             <Rectagle fill="#4553FF" height={300} width={530}/>
           </div>
           <div className="absolute top-4 right-0">
-            <Rectangle2 fillColor="#25DDF5" />
+            <Rectangle2 fillColor="#25DDF5" height={300} width={220}/>
           </div>
           <div className="absolute top-52 right-0">
-            <Rectangle2 fillColor="#73EED6" />
+            <Rectangle2 fillColor="#73EED6" height={300} width={300} />
           </div>
         </div>
 
         <div className="relative">
             <Internet_Business />
-            <div className="absolute -top-20 right-0 z-10">
+            <div className="absolute -top-20 right-0 z-10 ">
               <Asana />
             </div>
 
@@ -55,7 +55,7 @@ const Home = () => {
 
         </div>
 
-        <div className="pb-12 bg-gray-100 pt-36 dev-content ">
+        <div className="pb-12 bg-gray-100 pt-36 dev-content -mt-20">
           <DevelopersFirst />
         </div>
 
