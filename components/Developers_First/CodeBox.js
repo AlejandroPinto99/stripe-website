@@ -9,7 +9,7 @@ const CodeBox = () => {
 
     return(
         <div className=" flex justify-center pr-8 ">
-        <div className="w-1/12 flex flex-col text-xs items-center py-1 space-y-1 text-stripe-green shadow-md border-t border-l" style={{background: '#F2FEEF'} }>
+        <div className=" px-4 flex flex-col text-xs items-center justify-end py-1 space-y-1 text-stripe-green shadow-md border-t border-l" style={{background: '#F2FEEF'} }>
             {
                 lines.map((item, index) => (
                     <span key={index}>{item}</span>

@@ -6,8 +6,8 @@ const Menu = ({title, items}) => (
         <div className=" flex flex-col flex-wrap h-32 ">
             {
                 items.map((item, index) => (
-                    <div key={index} className="text-base source-sans-pro-400 px-2 pb-2 cursor-pointer pr-4 
-                    hover:-translate-y-1 transition duration-300 ease-in-out" style={{color: '#8998AA'}}>{item}</div>
+                    <div key={index} className="text-base source-sans-pro-400 px-2 pb-2 cursor-pointer pr-4 text-gray-400
+                    hover:text-gray-800 transition duration-300 ease-in-out">{item}</div>
                 ))
             }
         </div>
