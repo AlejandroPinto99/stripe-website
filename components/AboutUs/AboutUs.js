@@ -26,7 +26,7 @@ const OurServices = () => (
             <Feature title="ALWAYS IMPROVING" content={content1} icon={<AlwaysImproving />} link="Learn about Strip's products"/>
             <Feature title="GLOBAL SCALE" content={content2} icon={<GlobalScale />} link="More About us" />
         </div>
-        <div className="flex justify-around py-12 px-14">
+        <div className="flex justify-center py-12 px-14 space-x-16">
             <Kickstarter />
             <Twitter />
             <Instacart />
